@@ -28,7 +28,16 @@ let allAppointments = localStorage.getItem('appointments')
   : {};
 if (!localStorage.getItem('appointments')) {
   for (let i = 1; i <= endActualMonth; i++) {
-    allAppointments[i] = { a: false, b: false, c: false, d: false, e: false };
+    allAppointments[i] = {
+      a: false,
+      b: false,
+      c: false,
+      d: false,
+      e: false,
+      f: false,
+      g: false,
+      h: false,
+    };
   }
 }
 
