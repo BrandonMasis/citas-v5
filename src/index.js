@@ -35,8 +35,6 @@ if (!localStorage.getItem('appointments')) {
       d: false,
       e: false,
       f: false,
-      g: false,
-      h: false,
     };
   }
 }
@@ -46,7 +44,7 @@ function getMonthFromString(monthStr) {
 }
 
 function getDisplayHours(dayOfWeek) {
-  return ['9:00am', '9:00am', '9:00am', '2:00pm', '2:00pm', '2:00pm', '5:00pm'];
+  return ['9:00am', '9:00am', '2:00pm', '2:00pm', '5:00pm', '5:00pm'];
 }
 
 function displayDates(end, month) {
